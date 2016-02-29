@@ -48,10 +48,10 @@ public class RobotApi {
     protected boolean isSuccess(String errCode) {
         return ResultType.SUCCESS.getCode().toString().equals(errCode);
     }
-  /*  public static void main(String[] args) {
+    public static void main(String[] args) {
 		RobotApi api = new RobotApi();
 		WxMpXmlMessage ms = new WxMpXmlMessage();
 		ms.setContent("你好");
 		System.out.println(api.getMessage(ms));
-	}*/
+	}
 }
